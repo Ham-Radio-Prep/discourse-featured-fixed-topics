@@ -17,4 +17,6 @@
     {{format-date topic.created_at leaveAgo="true"}}
   </div>
 </a>
-{{conditional-loading-spinner condition=loading}}
+{{#if loading}}
+  {{conditional-loading-spinner condition=loading}}
+{{/if}}
