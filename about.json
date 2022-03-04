@@ -1,0 +1,9 @@
+{
+  "name": "Featured Fixed Topics",
+  "about_url": null,
+  "license_url": null,
+  "component": true,
+  "modifiers": {
+    "serialize_topic_excerpts": true
+  }
+}

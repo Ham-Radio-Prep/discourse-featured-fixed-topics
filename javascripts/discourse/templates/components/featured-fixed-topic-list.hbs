@@ -1,0 +1,9 @@
+{{#if showTopicLists}}
+  {{plugin-outlet name="above-discourse-featured-fixed-topics" tagName="" connectorTagName="div"}}
+  <h2 class="featured-topic-list-title">{{theme-setting 'featured_topic_lists_title'}}</h2>
+  <div class="wrap custom-homepage-columns">
+    {{featured-fixed-topic-list-item topicId=topicOneId classNames="col"}}
+    {{featured-fixed-topic-list-item topicId=topicTwoId classNames="col"}}
+    {{featured-fixed-topic-list-item topicId=topicThreeId classNames="col"}}
+  </div>
+{{/if}}

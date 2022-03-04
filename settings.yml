@@ -1,0 +1,13 @@
+featured_topic_lists_title:
+  type: string
+  default: "Featured"
+  description: "Title for Featured lists section"
+feed_one_topic_id:
+  default: 0
+  description: "Add topic ID for first featured Tile"
+feed_two_topic_id:
+  default: 0
+  description: "Add topic ID for Second featured Tile"
+feed_three_topic_id:
+  default: 0
+  description: "Add topic ID for Third featured Tile"
