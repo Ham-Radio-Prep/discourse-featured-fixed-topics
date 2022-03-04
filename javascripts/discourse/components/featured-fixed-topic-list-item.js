@@ -1,9 +1,8 @@
 import Component from "@ember/component";
 import discourseComputed from "discourse-common/utils/decorators";
 import Topic from "discourse/models/topic";
-import { ajax } from "discourse/lib/ajax";
 
-const excerptLength = 70;
+const excerptLength = 65;
 
 export default Component.extend({
   classNames: ['featured-topic'],
